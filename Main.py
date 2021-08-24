@@ -4,9 +4,10 @@ import re, requests,smtplib, ssl, socket, datetime
 
 port = 465  # For SSL
 smtp_server = "smtp.gmail.com"
-sender_email = "greenpizza0000@gmail.com"  # Enter your address
-receiver_email = "aasedqiabedalhameed173@cit.just.edu.jo"  # Enter receiver address
-password = "EasyPass00"
+sender_email = "greenpizza0000@gmail.com"  #Sender Address.
+
+receiver_email = ""  #Receiver address
+password = "" #Email Password in a clear text. 
 MyHost = socket.gethostname() 
 current_time = datetime.datetime.now() 
 
